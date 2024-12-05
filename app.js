@@ -1,32 +1,34 @@
-// 1 Mostre um alerta com a mensagem "Boas vindas ao nosso site!".
-alert("Boas vindas ao nosso site!");
+// 1 Crie um contador que comece em 1 e vá até 10 usando um loop while. Mostre cada número.
+// let i = 1;
 
-// 2 Declare uma variável chamada nome e atribua a ela o valor "Lua".
-let nome = "Lua";
+// while (i <= 10) {
+//   console.log(i);
+//   i++;
+// }
 
-// 3 Crie uma variável chamada idade e atribua a ela o valor 25.
-let idade = 25;
+// 2 Crie um contador que começa em 10 e vá até 0 usando um loop while. Mostre cada número.
+// let j = 10;
 
-// 4 Defina uma variável numeroDeVendas e atribua a ela o valor 50.
-let numeroDeVendas = 50;
+// while (j >= 0) {
+//   console.log(j);
+//   j--;
+// }
 
-// 5 Defina uma variável saldoDisponivel e atribua a ela o valor 1000.
-let saldoDisponivel = 1000;
+// 3 Crie um programa de contagem regressiva. Peça um número e conte deste número até 0, usando um loop while no console do navegador.
+// let numero = prompt("Digite um número");
+// numero = Number(numero);
 
-// 6 Exiba um alerta com o texto "Erro! Preencha todos os campos"
-alert("Erro! prencha todos os campos!");
+// while (numero >= 0) {
+//   console.log(numero);
+//   numero--;
+// }
 
-// 7 Declare uma variável chamada mensagemDeErro e atribua a ela o valor "Erro! Preencha todos os campos" Agora exiba um alerta com o valor da variável mensagemDeErro.
-let mensagemDeErro = "Erro! prencha todos os campos!";
-alert(mensagemDeErro);
+// 4 Crie um programa de contagem progressiva. Peça um número e conte de 0 até esse número, usando um loop while no console do navegador.
+// let numero = prompt("Digite um número");
+// numero = Number(numero);
+// let contador = 0;
 
-// 8 Use um prompt para perguntar o nome do usuário e armazená-lo na variável nome.
-nome = prompt("Qual o seu nome?");
-
-// 9 Peça ao usuário para digitar sua idade usando um prompt e armazene-a na variável idade.
-idade = prompt("Qual a sua idade?");
-
-// 10 Agora, caso a idade seja maior ou igual que 18, exiba um alerta com a mensagem "Pode tirar a habilitação!".
-if (idade >= 18) {
-  alert("Pode tirar a habilitação");
-}
+// while (contador <= numero) {
+//   console.log(contador);
+//   contador++;
+// }
