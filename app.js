@@ -1,5 +1,5 @@
-// 1 Mostre um alerta com a mensagem "Boas vindas ao nosso site!".
-alert("Boas vindas ao nosso site!");
+// 1 Mostre um alerta com a mensagem "Boas-vindas ao nosso site!".
+alert("Boas-vindas ao nosso site!");
 
 // 2 Declare uma variável chamada nome e atribua a ela o valor "Lua".
 let nome = "Lua";
@@ -14,19 +14,19 @@ let numeroDeVendas = 50;
 let saldoDisponivel = 1000;
 
 // 6 Exiba um alerta com o texto "Erro! Preencha todos os campos"
-alert("Erro! prencha todos os campos!");
+alert("Erro! Preencha todos os campos!");
 
 // 7 Declare uma variável chamada mensagemDeErro e atribua a ela o valor "Erro! Preencha todos os campos" Agora exiba um alerta com o valor da variável mensagemDeErro.
-let mensagemDeErro = "Erro! prencha todos os campos!";
+let mensagemDeErro = "Erro! Preencha todos os campos!";
 alert(mensagemDeErro);
 
 // 8 Use um prompt para perguntar o nome do usuário e armazená-lo na variável nome.
-nome = prompt("Qual o seu nome?");
+nome = prompt("Qual é o seu nome?");
 
 // 9 Peça ao usuário para digitar sua idade usando um prompt e armazene-a na variável idade.
-idade = prompt("Qual a sua idade?");
+idade = prompt("Qual é a sua idade?");
 
 // 10 Agora, caso a idade seja maior ou igual que 18, exiba um alerta com a mensagem "Pode tirar a habilitação!".
 if (idade >= 18) {
-  alert("Pode tirar a habilitação");
+  alert("Pode tirar habilitação!");
 }
